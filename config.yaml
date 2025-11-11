@@ -36,5 +36,5 @@ max_hold_secs: 900               # re-enable after 15 min if still low (safety)
 alerts:
   telegram:
     enabled: true
-    bot_token: "8323392369:AAHDUNPsxjh0t4sIDAU_bmXHMZdQGjM-iUU"
+    bot_token: "8323392369:AAFOmXldvymNfj6JMHZKeBEcjDnTpD4oihk"
     chat_id: 123456789
