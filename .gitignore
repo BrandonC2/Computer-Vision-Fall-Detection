@@ -1,4 +1,16 @@
-*.yaml
+# python
+__pycache__/
+*.py[cod]
 
+# environments
+venv/
+.venv/
+
+# editors
+.vscode/
+.idea/
+
+# secrets
+.env
 *.env
-
+config.yaml
