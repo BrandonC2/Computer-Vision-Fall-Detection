@@ -1,0 +1,9 @@
+~/fall-pi/
+   models/
+	movenet_single_pose_lightning.tflite     # TFLite pose model
+   clips/                                       # saved 3?5s review videos
+   fall_detect.py                               # main app (capture -> detect -> record -> notify)
+   notifiers.py                                 # Telegram helper
+   config.yaml                                  # all settings (lens, clip length, single-alert latch)
+   service/
+	fall.service                              # (optional) auto-start on boot

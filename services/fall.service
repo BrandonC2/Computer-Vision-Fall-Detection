@@ -1,0 +1,14 @@
+[Unit]
+Description=Fall Detector (Telegram)
+After=network-online.target
+
+[Service]
+WorkingDirectory=/home/pi/fall-pi
+ExecStart=/home/pi/fall-pi/.venv/bin/python /home/pi/fall-pi/fall_detect.py
+Restart=always
+RestartSec=3
+User=pi
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
